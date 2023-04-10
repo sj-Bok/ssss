@@ -9,12 +9,12 @@ def main():
     print("Welcome to calcuator")
     while check >= 1:        
         print("0: exit, 1: plus")
-        check = double(input())
+        check = int(input())
         if check == 1:
             print("First Number")
-            x = double(input())
+            x = int(input())
             print("Second Number")
-            y = double(input())
+            y = int(input())
             print("answer : ", plus(x,y))
         elif check > 1:
             print("Unsupported")
